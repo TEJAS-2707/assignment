@@ -1,0 +1,37 @@
+#app {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.pagination {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin-left: 5px;
+}
